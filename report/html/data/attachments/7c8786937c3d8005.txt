@@ -1,0 +1,1 @@
+{'code': 200, 'message': '图片上传成功', 'data': {'url': 'https://pdq18.oss-cn-beijing.aliyuncs.com/images/525f3af2c57440e9b8df8de90fd0d232.jpg', 'fileName': '1936d0e99a6441c49f9c62168aa81043.jpg', 'fileSize': 294485}}

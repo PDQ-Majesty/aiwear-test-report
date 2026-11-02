@@ -1,0 +1,1 @@
+{'code': 200, 'message': '操作成功', 'data': {'userId': 10000003, 'username': 'autotest_mail@qq.com', 'email': 'autotest_mail@qq.com', 'token': '***'}}

@@ -1,0 +1,18 @@
+# 测试依赖中间件一键拉起：MySQL(3307，避开本机默认3306) + Redis(6379)
+# 用法：docker compose up -d
+services:
+  mysql:
+    image: mysql:8
+    container_name: aiwear-test-mysql
+    ports: ["3307:3306"]
+    environment:
+      MYSQL_ROOT_PASSWORD: test123
+      MYSQL_DATABASE: bite_wear
+    volumes:
+      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    command: --default-character-set=utf8mb4
+
+  redis:
+    image: redis:7-alpine
+    container_name: aiwear-test-redis
+    ports: ["6379:6379"]

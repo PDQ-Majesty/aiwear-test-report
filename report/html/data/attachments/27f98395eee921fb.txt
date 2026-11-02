@@ -1,0 +1,1 @@
+{'code': 200, 'message': '操作成功', 'data': {'userId': 10000004, 'username': 'autotest_user_b', 'email': None, 'token': '***'}}

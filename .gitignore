@@ -1,0 +1,12 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Allure 中间结果（保留 report/html 静态站点供 Pages 发布）
+report/allure-results/
+
+# IDE
+.idea/
+.vscode/
